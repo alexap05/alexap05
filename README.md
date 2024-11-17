@@ -4,18 +4,6 @@ de estas herramientas que de poco en poco me van a encaminar al futuro ingeniero
 A continuacion un ejemplo de lo que hemos desarrollado.
 
 
-function multiplos_numeros() { 
-    let multi= parseInt(document.getElementById("multiplos").value);
-    let cantidad= parseInt(document.getElementById("cant").value);
-    let respuesta= document.getElementById("respu_multiplos");
-    let resul= "";
-    for(let i = 1; i <= cantidad; i++){
-        if(i % multi ===0){
-            resul +="El numero "+i+" es multiplo de "+multi+"\n";
-        }
-    }
-    respuesta.value= resul;
-}
 
 
 <!---
